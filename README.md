@@ -10,16 +10,16 @@ LESSCSS mixins file of vendor prefixes for CSS3
 
 ###Mixins available
 
-*.border-radius();
-*.outline-radius();
-*.box-shadow();
-*.transition();
-*.transform();
-*.box();
-*.flex();
-*.resize();
-*.linear-gradient();
-*.double-borders();
-*.triple-borders();
-*.colomns();
-*.box-sizing();
+* .border-radius();
+* .outline-radius();
+* .box-shadow();
+* .transition();
+* .transform();
+* .box();
+* .flex();
+* .resize();
+* .linear-gradient();
+* .double-borders();
+* .triple-borders();
+* .colomns();
+* .box-sizing();
