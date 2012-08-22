@@ -150,3 +150,16 @@
 	   -moz-box-sizing: @type;
 	        box-sizing: @type;		
 }
+
+.text-shadow(
+	@color : #000,
+	@xPos : 0px,
+	@yPos : 0px,
+	@blur : 0px
+) {
+-webkit-text-shadow: @xPos @yPos @blur @color;
+   -moz-text-shadow: @xPos @yPos @blur @color;
+    -ms-text-shadow: @xPos @yPos @blur @color;
+     -o-text-shadow: @xPos @yPos @blur @color;
+        text-shadow: @xPos @yPos @blur @color;
+}
