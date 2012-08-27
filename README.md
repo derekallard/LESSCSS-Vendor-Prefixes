@@ -23,3 +23,4 @@ LESSCSS mixins file of vendor prefixes for CSS3
 * .triple-borders();
 * .colomns();
 * .box-sizing();
+* .text-shadow();
