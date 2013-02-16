@@ -96,6 +96,24 @@
 	background: -o-linear-gradient(top, @begin, @end @switch);
 	background: linear-gradient(top, @begin, @end @switch);
 }
+
+.radial-gradient( 
+	@begin: black, 
+	@end: white,
+	@switch : 100%
+) {
+	background:  @begin;
+
+	background: -moz-radial-gradient(center, ellipse cover, @begin 0%, @end @switch);
+	background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0%, @begin), color-stop(@switch, @end));
+	background: -webkit-radial-gradient(center, circle cover, @begin 0%, @end @switch);
+	background: -o-radial-gradient(center, ellipse cover, @begin 0%, @end @switch);
+	background: radial-gradient(ellipse at center, @begin 0%, @end @switch);
+
+	/* ie support */
+	background: -ms-radial-gradient(center, ellipse cover, @begin 0%, @end @switch);
+	filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr='@{begin}', endColorstr='@{end}', GradientType=1)";
+}
     
 .double-borders( 
 	@colorOne : green,
